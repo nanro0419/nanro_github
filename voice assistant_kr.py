@@ -160,6 +160,8 @@ while True:
         message = "종료합니다."
         ai_voice(message)
         break
+    else:
+        message = "다시 말씀해주세요."
 
     print(message)
     ai_voice(message)
