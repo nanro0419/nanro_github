@@ -1,7 +1,3 @@
-# 아래에서 만든 코드를 고쳐서 기능을 추가하자.
-# 기능이 정상적으로 작동하는 것을 구현한 다음에, 첨부된 파일을 이용해서 작성한 코드를 정리를 해보기.
-# 여기서부터는 스크립트 모드를 이용해서 긴 코드를 작성하도록 한다.
-
 # voice assistant
 # Voice recognition -> grab information about weather, temperature, current date, and current time -> voice generation
 # Functions to make
@@ -17,15 +13,6 @@
 # voice generation: gtts (pip install gtts), pydub (pip install pydub), ffmpeg(conda install ffmpeg)
 # date & time: Timezone pytz package (pip install pytz)
 # 세계 시간 Timezone pytz 패키지 이용 (pip install pytz)
-
-
-# 구현해야할 기능: 음성인식 -> 도시의 날씨 및 온도, 도시의 현재 시간 -> 종료 구현.
-
-# 1. 음성인식 함수
-# 2. 도시의 날씨 및 온도 정보 불러오기
-# 3. 도시의 현재 시간 정보 불러오기
-# 4. 음성합성 함수
-# 5. 여러 도시 인식을 위한 keyword 찾기 기능 구현현
 
 import gtts
 import speech_recognition as sr
