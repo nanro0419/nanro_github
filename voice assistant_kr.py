@@ -72,7 +72,6 @@ def ai_voice(message: str):
     fp = BytesIO(fp.getvalue())
     ai_audio = AudioSegment.from_file(fp, format="mp3")
     play(ai_audio)
-    print(message)
 
 
 # Function for getting city name, weather, and temperature
@@ -141,7 +140,7 @@ cities_dict_weather = {
 
 while True:
     user_command = voice_recognition()
-    print(user_command)
+    print("인식결과 :", user_command)
     city = find_keyword(
         keywords=cities_dict.keys(), sentence=user_command, default="서울"
     )
