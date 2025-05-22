@@ -14,6 +14,8 @@
 # date & time: Timezone pytz package (pip install pytz)
 # 세계 시간 Timezone pytz 패키지 이용 (pip install pytz)
 
+# Need to edit: when two commands were used as input such as 날씨와 시간. only 날씨 was printed.
+
 import gtts
 import speech_recognition as sr
 from pydub import AudioSegment
